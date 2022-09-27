@@ -7,7 +7,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-Plug 'shaunsingh/nord.nvim'
+"Plug 'shaunsingh/nord.nvim'
+Plug 'projekt0n/github-nvim-theme'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

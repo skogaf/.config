@@ -7,10 +7,10 @@ vmap S <ESC>:w<Enter>
 vmap Q <ESC>:q!<Enter>
 vmap W <ESC>:wq<Enter>
 
-inoremap ( ()<ESC>i
-inoremap [ []<ESC>i
-inoremap { {}<ESC>i
-inoremap < <><ESC>i
+inoremap ) ()<ESC>i
+inoremap ] []<ESC>i
+inoremap } {}<ESC>i
+inoremap > <><ESC>i
 inoremap ' ''<ESC>i
 inoremap " ""<ESC>i
 

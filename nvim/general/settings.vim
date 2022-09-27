@@ -14,6 +14,7 @@ set hlsearch
 set incsearch
 set noignorecase
 
-set background=dark
+"colorscheme github_dark
+"set background=dark
 
 au! BufWritePost $MYVIMRC source %

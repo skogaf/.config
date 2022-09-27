@@ -33,4 +33,12 @@ source $HOME/.config/nvim/themes/airline.vim
 "call plug#end()
 
 "set background=dark
-colorscheme nord
+"colorscheme nord
+
+let g:github_function_style = "italic"
+let g:github_sidebars = ["qf","vista_kind","terminal","packer"]
+let g:github_colors = {
+			\ 'hint': 'orange',
+			\ 'error': '#ff0000'
+\ }
+colorscheme github_dark
